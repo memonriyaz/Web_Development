@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - Riyaz Memon</title>
+  </head>
+  <body>
+    <div>
+      <h1>Forms - Riyaz Memon</h1>
+    </div>
+
+    <div>
+      <form action="post">
+        <label for="Username">Enter your Username</label>
+        <input
+          type="text"
+          name="Username"
+          id="Username"
+          placeholder="Username"
+        /> <div>
+        <label for="Password">Enter your Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Password"/>
+    </div>
+        <div>
+            
+          <input type="radio" id="male" name="gender" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" />
+          <label for="male">Female</label>
+
+        </div>
+
+        <input type="checkbox" name="chkbox" id="checkbox" />I Agree
+         <div>
+        <textarea name="comment" id="comment" cols="30" rows="10">Enter Comments</textarea>
+    </div>
+        <div>
+        <select name="fruit" id="fruit">
+          <option value="Banana">Banana</option>
+          <option value="Apple">Apple</option>
+          <option value="Mango">Mango</option>
+        </div>
+        </select>
+      </form>
+    </div>
+    
+
+    <form method="post">
+        <div>
+            <label for="name">Name:</label>
+        <input type="text" name="Name" id="name" placeholder="Enter your Name">
+    </div>
+        <div>
+            <label for="city">City:</label>
+        <input type="text" name="City" id="city" placeholder="Enter your City">  
+    </div>
+        <div>
+            <label for="name">Pincode:</label>
+        <input type="number" name="Pincode" id="pincode" placeholder="Enter your Pincode">    
+    </div>
+    </form>
+
+  </body>
+</html>
